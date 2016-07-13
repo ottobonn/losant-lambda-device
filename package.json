@@ -1,0 +1,20 @@
+{
+  "name": "losant-lambda-device",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to set Losant device attributes from a workflow",
+  "dependencies": {
+    "losant-rest": "^1.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "rewire": "^2.5.2",
+    "rsvp": "^3.2.1",
+    "sinon": "^1.17.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Travis Geis <travis@travisgeis.com>",
+  "license": "ISC"
+}
